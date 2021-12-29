@@ -1,0 +1,2 @@
+   url="jdbc:sqlserver://102SE42-7YH3P02:1433;databasename=ENCHERS"
+      url="jdbc:sqlserver://127.0.0.1:1433;databasename=ENCHERES"

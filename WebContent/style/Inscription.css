@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+body
+{
+margin:0 auto;
+padding:0px;
+text-align:center;
+width:100%;
+font-family: 'Roboto','Open Sans',Sans-Serif;
+color: #5F634F;
+background-color:#CFEBDF;
+}
+a {
+  color: #5f634f;
+}
+p {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom:30px;
+font-size:25px;
+font-weight:bold;
+color:#5f634f;
+text-decoration:underline;
+}
+.ico{
+    width:05%;
+    display:block;
+    height:05%;
+    background-color:#CFEBDF;
+    color:white;
+    text-decoration:none;
+    padding-left:45%;
+}
+.form_div .form_label
+{
+margin:15px;
+margin-bottom:30px;
+font-size:25px;
+font-weight:bold;
+color:#5f634f;
+text-decoration:underline;
+}
+.boutonsCreerAnnuler{
+display: flex;
+justify-content: center;
+margin-top: 20px;
+
+}
+
+.btn_i {
+  width: 125px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-1 {
+  text-align: center;
+}
+.btn-creer{
+background-color: #5F634F;
+color: #CFEBDF;
+width: 104px;
+height: 29px;
+float: left;
+margin-left: +50%;
+ 
+ text-align: center;
+}
+
+
+
+.cards {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 16px;
+}
+
+
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+.cards {
+grid-template-columns: 1fr;
+}
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+.cards {
+grid-template-columns: 1fr;
+}
+}
+<<<<<<< HEAD
+table th{
+ visibility:visible;
+ display:block;
+ font-size:20px;
+
+
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+.cards {
+grid-template-columns: 1fr 1fr;
+>>>>>>> 0f16d1dabdd345107ecb80bcadcb7f3da633122e
+}
+}
+
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+.cards {
+grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+.cards {
+grid-template-columns: 1fr 1fr 1fr;
+}
+}
+

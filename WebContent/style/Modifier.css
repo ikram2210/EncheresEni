@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+body
+{
+margin:0 auto;
+padding:0px;
+text-align:center;
+width:100%;
+font-family: 'Roboto','Open Sans',Sans-Serif;
+color: #5F634F;
+background-color:#CFEBDF;
+
+}
+.ico{
+    width:25%;
+    display:block;
+    height:15%;
+    background-color:#CFEBDF;
+    color:white;
+    text-decoration:none;
+    padding-left:20px;
+}
+.formulaire{
+padding-bottom: 40px;
+}
+
+.boutonsEnregistreSupprimerrAnnuler{
+display: flex;
+justify-content: center;
+	
+}
+
+.btn-enregistrer{
+background-color: #5F634F;
+color: #CFEBDF;
+width: 104px;
+height: 49px;
+float: left;
+margin-left: 20px;
+}
+
+.btn-supprimer{
+background-color: #5F634F;
+color: #CFEBDF;
+width: 150px;
+height: 49px;
+float: left;
+margin-left: 20px
+}
+
+.btn-retour{
+background-color: #5F634F;
+color: #CFEBDF;
+width: 104px;
+height: 49px;
+float: left;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+.cards {
+grid-template-columns: 1fr;
+}
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+.cards {
+grid-template-columns: 1fr;
+}
+}
+
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+.cards {
+grid-template-columns: 1fr 1fr;
+}
+}
+
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+.cards {
+grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+.cards {
+grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+

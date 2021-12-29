@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://Java.Sun.com/xml/ns/javaee;http://Java.Sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Encheres</display-name>
+
+  
+  <!--  Quelle page doit s'afficher pour un certain type d'erreur HTTP -->
+  <error-page>
+  	<error-code>505</error-code>
+  	<location>/erreurs/erreur505.html</location>
+  </error-page>
+ 
+   <servlet>
+		 <servlet-name>Hello</servlet-name>
+		 <servlet-class>/encheres/WebContent/WEB-INF/Connexion.jsp</servlet-class>
+	 </servlet>
+	 <servlet-mapping>
+		 <servlet-name>Hello</servlet-name>
+		 <url-pattern>/Connexion</url-pattern>
+	 </servlet-mapping>
+  
+</web-app>
